@@ -24,9 +24,18 @@
 .list-input:last-child:checked{
 
 }*/
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
+/* NIEBEZPIECZNE UZYCIE, LEPIEJ NIE UZYWAC */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* Reszta kodu */
+
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -232,6 +241,9 @@ body {
 /* ===--- CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ /// PROJECT/IMAGES---=== */
 .item-list {
   list-style-type: none;
+}
+.team {
+  background-color: #F5F4FA;
 }
 /* ===--- END CZYM SIĘ ZAJMUJEMY (zdjęcia) /// ZESPÓŁ /// PROJECT/IMAGES ---=== */
 
